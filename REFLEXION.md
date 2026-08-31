@@ -1,0 +1,3 @@
+1| El Token Único que utilicé para el trabajo es el siguiente: boisselier-8339-91
+2| No ejecuté el comando git status antes de realizar el primer commit, por lo tanto no cuento con la salida correspondiente para responder esta pregunta.
+3| La diferencia radica en qu ela staging area es como una zona de preparación, donde se colocan los cambios que queremos incluir en el próximo commit. En cambio, el working directory es la carpeta donde se está trabajando y donde se encuentran los archivos que vamos modificando.
