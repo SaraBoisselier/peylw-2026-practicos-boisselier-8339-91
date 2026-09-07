@@ -1,3 +1,7 @@
-1| El Token Único que utilicé para el trabajo es el siguiente: boisselier-8339-91
-2| No ejecuté el comando git status antes de realizar el primer commit, por lo tanto no cuento con la salida correspondiente para responder esta pregunta.
-3| La diferencia radica en qu ela staging area es como una zona de preparación, donde se colocan los cambios que queremos incluir en el próximo commit. En cambio, el working directory es la carpeta donde se está trabajando y donde se encuentran los archivos que vamos modificando.
+1| Nombre del archivo: mi_personaje.png
+texto alternativo: Mi keko de Hartico/Habbo.
+
+2| Son fundamentales porque especifican lo que debe hacer la página, por ejemplo <main> se usa para el contenido central del documento y <nav> indica la navegación.
+<div> agrupa o divide contenido pero no explica la función que cumple el mismo.
+
+3| Lo comprobé testeando la página directamente desde mis archivos. Ingresé al index.html y verifiqué si los enlaces funcionaban de manera correcta.
