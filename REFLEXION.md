@@ -1,7 +1,8 @@
-1| Nombre del archivo: mi_personaje.png
-texto alternativo: Mi keko de Hartico/Habbo.
+1| <label for="cp">Código Postal:</label>
+<input type="text" id="cp" name="cp"
+       pattern="^[A-Z]\d{4}[A-Z]{3}$"
+       title="Ingresá un código postal con el formato R8500AAF">
+    
+2| <label> sirve para identificar qué dato hay que ingresar en un campo del formulario. Se relaciona mediante el atributo "for", que debe tener el mismo valor que el id del <input>.
 
-2| Son fundamentales porque especifican lo que debe hacer la página, por ejemplo <main> se usa para el contenido central del documento y <nav> indica la navegación.
-<div> agrupa o divide contenido pero no explica la función que cumple el mismo.
-
-3| Lo comprobé testeando la página directamente desde mis archivos. Ingresé al index.html y verifiqué si los enlaces funcionaban de manera correcta, después la publiqué en GitHub Pages e ingresé nuevamente para volver a chequear si respondía con normalidad.
+3| Cuando los botones radio comparten el mismo atributo "name", pertenecen al mismo grupo, por lo tanto, al seleccionar una opción, otra permanece desmarcada. En cambio, si tienen diferentes atributos, se consideran grupos distintos y pueden quedar ambos seleccionados.
