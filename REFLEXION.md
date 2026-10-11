@@ -1,8 +1,13 @@
-1| <label for="cp">Código Postal:</label>
-<input type="text" id="cp" name="cp"
-       pattern="^[A-Z]\d{4}[A-Z]{3}$"
-       title="Ingresá un código postal con el formato R8500AAF">
-    
-2| <label> sirve para identificar qué dato hay que ingresar en un campo del formulario. Se relaciona mediante el atributo "for", que debe tener el mismo valor que el id del <input>.
+1| .logo-curza {
+    transition: transform 1s ease-in-out;
+}
 
-3| Cuando los botones radio comparten el mismo atributo "name", pertenecen al mismo grupo, por lo tanto, al seleccionar una opción, otra permanece desmarcada. En cambio, si tienen diferentes atributos, se consideran grupos distintos y pueden quedar ambos seleccionados.
+.logo-curza:hover {
+    transform: rotateY(360deg);
+}
+
+Permite que el logo gire 360 grados sobre su eje vertical cuando paso el cursor por encima. La transición hace que el movimiento dure un segundo y sea suave.
+
+2| Porque, cuando desplazamos el contenido, el texto pasa por detrás del título. Si no le ponemos un color de fondo, las letras podrían superponerse y dificultar la lectura.
+
+3| El menú de navegación pasa a mostrarse verticalmente, con los enlaces uno debajo del otro. También se ajustan los tamaños y espacios, y la tabla permite desplazarse horizontalmente para que no se salga de la pantalla.
