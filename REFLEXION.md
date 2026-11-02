@@ -1,13 +1,16 @@
-1| .logo-curza {
-    transition: transform 1s ease-in-out;
-}
+1|  if (edad.value != "" && Number(edad.value) < 18) {   
+            resumenEdad.innerText = edad.value + " (Menor de edad)";
+            resumenEdad.style.backgroundColor = "#ffcccc";
+        } else {
+            resumenEdad.innerText = edad.value;
+            resumenEdad.style.backgroundColor = "";     
+        }
 
-.logo-curza:hover {
-    transform: rotateY(360deg);
-}
+La condición if convierte el valor ingresado a número y lo compara con 18, si es menor, se muestra una advertencia con fondo rojo. Si es igual o mayor a 18, muestra solamente la edad.
 
-Permite que el logo gire 360 grados sobre su eje vertical cuando paso el cursor por encima. La transición hace que el movimiento dure un segundo y sea suave.
+2| Input permite actualizar la información mientras el usuario escribe, sin necesidad de salir del campo. 
+Change se ejecuta cuando se confirma un cambio de valor, por lo general pasa cuando el usuario termina de editar y sale del campo. 
+Input -> lo usé para los datos escritos en tiempo real.
+Change -> Para detectar cambios en las opciones seleccionadas.
 
-2| Porque, cuando desplazamos el contenido, el texto pasa por detrás del título. Si no le ponemos un color de fondo, las letras podrían superponerse y dificultar la lectura.
-
-3| El menú de navegación pasa a mostrarse verticalmente, con los enlaces uno debajo del otro. También se ajustan los tamaños y espacios, y la tabla permite desplazarse horizontalmente para que no se salga de la pantalla.
+3| Con condiciones if, que comprueban si los elementos existen antes de trabajar con ellos.

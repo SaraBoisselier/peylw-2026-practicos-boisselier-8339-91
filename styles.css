@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
 
-/*
-Alumno: Sara Celeste Boisselier
-Legajo: 8691
-Token: boisselier-8339-91
-Paleta HSL:
-Primario: hsl(335, 55%, 65%)
-Secundario: hsl(270, 45%, 85%)
-Fondo: hsl(330, 60%, 97%)
-Texto: hsl(325, 20%, 25%)
-*/
-
 * {
     box-sizing: border-box;
 }
@@ -26,7 +15,6 @@ body {
     color: hsl(325, 20%, 25%);
 }
 
-/* CABECERA FIJA */
 
 header {
     position: fixed;
@@ -52,7 +40,6 @@ h1 {
     margin: 5px 0;
 }
 
-/* LOGO CURZA */
 
 .logo-curza {
     width: 65px;
@@ -66,7 +53,6 @@ h1 {
     transform: rotateY(360deg);
 }
 
-/* NAVEGACIÓN */
 
 nav ul {
     display: flex;
@@ -85,7 +71,6 @@ nav a {
     border-radius: 8px;
 }
 
-/* CONTENIDO */
 
 main {
     max-width: 1000px;
@@ -111,8 +96,6 @@ img {
 figure {
     text-align: center;
 }
-
-/* BIOGRAFÍA CON STICKY */
 
 .biografia-scroll {
     max-height: 300px;
@@ -204,7 +187,6 @@ button {
     font-family: inherit;
 }
 
-/* BOTÓN VOLVER ARRIBA */
 
 .volver-arriba {
     position: fixed;
@@ -223,7 +205,6 @@ button {
     font-size: 23px;
 }
 
-/* PIE DE PÁGINA */
 
 footer {
     text-align: center;
@@ -231,7 +212,6 @@ footer {
     background-color: hsl(270, 45%, 85%);
 }
 
-/* DISEÑO RESPONSIVE */
 
 @media (max-width: 768px) {
     header {
@@ -273,4 +253,11 @@ footer {
     form {
         width: 100%;
     }
+}
+td[style*="background-color"] {
+    background-color: #fd2b2b !important
+}
+
+.biografia {
+    display: none;
 }
