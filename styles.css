@@ -261,3 +261,102 @@ td[style*="background-color"] {
 .biografia {
     display: none;
 }
+
+.contenedor-juego {
+    max-width: 850px;
+}
+
+.presentacion-juego {
+    text-align: center;
+    border: 2px solid hsl(270, 45%, 85%);
+}
+
+.presentacion-juego h2 {
+    font-size: 28px;
+}
+
+.presentacion-juego h3 {
+    color: hsl(335, 55%, 45%);
+}
+
+.estadisticas-juego {
+    text-align: center;
+    background-color: hsl(330, 60%, 95%);
+    border: 2px solid hsl(270, 45%, 85%);
+}
+
+.estadisticas-juego span {
+    font-weight: 700;
+    color: hsl(335, 55%, 45%);
+}
+
+.area-juego {
+    text-align: center;
+    border: 2px solid hsl(270, 45%, 85%);
+}
+
+.area-juego h3 {
+    color: hsl(335, 55%, 45%);
+}
+
+#form-juego {
+    max-width: 350px;
+    margin: 20px auto;
+    align-items: center;
+}
+
+#numero-juego {
+    text-align: center;
+    font-size: 20px;
+}
+
+.area-juego button {
+    width: 100%;
+    max-width: 350px;
+    transition: background-color 0.3s ease,
+                transform 0.3 s ease;
+}
+
+.area-juego button:hover {
+    background-color: hsl(335, 55%, 50%);
+    transform: translateY(-2px);
+}
+
+.area-juego button:disabled {
+    background-color: hsl(270, 15%, 75%);
+    cursor: not-allowed;
+    transform: none;
+}
+
+#mensaje-juego {
+    font-weight: 600;
+    color: hsl(335, 55%, 45%);
+    min-height: 30px;
+    padding: 10px;
+}
+
+#btn-reiniciar-boisselier-8339-91 {
+    background-color: hsl(270, 45%, 70%);
+    color: white;
+    font-weight: 600;
+}
+
+#btn-reiniciar-boisselier-8339-91:hover {
+    background-color: hsl(270, 45%, 55%);
+}
+
+@media (max-width: 768px) {
+    .presentacion-juego h2 {
+        font-size: 22px;
+    }
+
+    .contenedor-juego {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    #form-juego {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de Juegos de Sara - Token: boisselier-8339-91</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <!-- TOKEN-ALUMNO: boisselier-8339-91 -->
+
+<header id="top">
+    <h1>Portal de Sara Celeste Boisselier - boisselier-8339-91</h1>
+    <img src="img/curzas.webp" alt="Logo del CURZA" class="logo-curza">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acercade.html">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="juego.html">Juego</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="contenedor-juego">
+
+    <section class="presentacion-juego">
+        <h2>Área de Juegos de Sara</h2>
+        <p>Token: boisselier-8339-91</p>
+        <h3>¡Adiviná el número secreto!</h3>
+        <p> 
+            Estoy pensando un número entre 1 y 100.
+            ¿Cuál es? Te reto a descubrirlo :p
+        </p>
+    </section>
+
+    <section class="estadisticas-juego">
+        <h3>Estadísticas</h3>
+
+        <p>Intentos: <span id="intentos-juego">0</span></p>
+        <p>Puntos: <span id="puntos-juego">0</span></p>
+        <p>Récord: <span id="record-juego">0</span></p>
+    </section>
+
+    <section class="area-juego">
+        <h3>Probá suerte ♡</h3>
+
+        <form id="form-juego">
+            <label for="numero-juego">Ingresá un número:</label>
+
+            <input
+                type="number"
+                id="numero-juego"
+                min="1"
+                max="100"
+                step="1"
+                required
+            >
+
+            <button
+                type="submit"
+                id="btn-adivinar-boisselier-8339-91">
+                Adivinar
+            </button>
+        </form>
+
+        <p id="mensaje-juego" aria-live="polite">
+            ¡Empecemos con el juego!
+        </p>
+
+        <button
+            type="button"
+            id="btn-reiniciar-boisselier-8339-91">
+            Nueva partida
+        </button>
+
+    </section>
+
+</main>
+
+<footer>
+        <p>© 2026 Sara Celeste Boisselier</p>
+        <p>CURZAS | UNCO, Viedma, Río Negro</p>
+        <p>Token: boisselier-8339-91</p>
+    </footer>
+
+    <a href="#top" class="volver-arriba">▲</a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
